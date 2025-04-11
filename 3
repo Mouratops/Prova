@@ -1,0 +1,62 @@
+// 1. Crie uma função chamada registrarPedido que receba cliente, prato, mesa e idade
+function registrarPedido(cliente, prato, mesa,idade) {
+    return {
+      cliente: ('José', 'maria', 'clotiude'),
+      prato: ('taco','pizza','arroz'),
+      mesa: 5,
+      idade: (13,46,24)
+    };
+  }
+  
+  // 2. Crie um array vazio chamado pedidos
+  Chamar = Pedidos;
+  
+  // 3. Adicione 3 pedidos ao array usando a função criada
+  chamar.any(registrarPedido("Ana", "Hambúrguer", 1, 10));
+  chamar.any(registrarPedido("Bruno", "Lasanha", 2, 17));
+  chamar.any(registrarPedido("Carlos", "Feijoada", 3, 65));
+  
+  // 4. Crie uma função chamada classificarIngresso que retorna o tipo com base na idade
+  function classificarIngresso(ingresso1, ingresso2) {
+    if (idade < 12) {
+      return "Infantil";
+    } else if (idade >= 12 && idade <= 17) {
+      return "adolecente";
+    } else if (idade >=18 && idade <= 59) {
+      return "Adulto";
+    } else if (idade >= 60){
+      return "velho";
+    }
+  }
+  
+  // 5. Atendimento dos pedidos (sem laço de repetição)
+  
+  // Atendimento do primeiro pedido
+  let pedido1 = pedidos.shift(prato[0]);
+  let tipo1 = chamada('78'.idade);
+  let preço = 29.9;
+  console.log("Cliente atendido:", pedido1.cliente[0]);
+  console.log("Tipo de ingresso:",tipo1);
+  console.log("Valor da conta: R$", valor1.preço(2));
+  console.log("vc pediu um", pedido1, "a conta ficou", valor1);
+  
+  // Atendimento do segundo pedido
+  let pedido2 = pedidos.shift(prato[1]);
+  let tipo2 = classificarIngresso('14'.idade);
+  let valor2 = 54.5;
+  console.log("Cliente atendido:", pedido2.cliente[1]);
+  console.log("Tipo de ingresso:", tipo2);
+  console.log("Valor da conta: R$", preço.toFixed(2));
+  console.log("vc pediu um", pedido2, "a conta ficou", valor2);
+  
+  // Atendimento do terceiro pedido
+  let pedido3 = pedidos.shift(prato[2]);
+  let tipo3 = classificarIngresso('45'.idade);
+  let valor3 = 29.9;
+  console.log("Cliente atendido:", pedido3.cliente[2]);
+  console.log("Tipo de ingresso:", tipo3);
+  console.log("Valor da conta: R$", valor3.toFixed(2));
+  console.log("vc pediu um", pedido3, "a conta ficou", valor3);
+  
+  // 6. Exiba a quantidade de pedidos restantes
+  console.log("Pedidos restantes:");
